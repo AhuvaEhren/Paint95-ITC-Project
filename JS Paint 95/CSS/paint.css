@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    display: flex;   
+    height: 502px; 
+}
+
+.empty{
+    background: white;
+    height: 500px;
+    width: calc(100% - 900px);
+    z-index: 12345;
+}
+
+.paints{
+    background: grey;
+    height: 500px;
+    width: 200px;
+    margin-right: 5%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    border-style: inset;
+}
+
+.color{
+    height: 50px;
+    width: 50px; 
+    border-style: inset;
+}
+
+.red{
+    background: red;
+}
+
+.red:hover {
+    background-color: rgb(207, 31, 31);
+}
+
+.blue{
+    background: blue;
+}
+
+.blue:hover {
+    background-color: rgb(2, 0, 138);
+}
+
+.yellow{
+    background: yellow;
+}
+
+.yellow:hover {
+    background-color: rgb(233, 203, 34);
+}
+
+.green{
+    background: green;
+}
+
+.green:hover {
+    background-color: rgb(23, 105, 23);
+}
+
+.purple{
+    background: purple;
+}
+
+.purple:hover {
+    background-color: rgb(61, 7, 87);
+}
+
+.white{
+    background: white;
+    text-align: center;
+}
+
+.white:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.btn{
+    width: 60px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.small{
+    width: 5px;
+    height: 5px;
+}
+
+.canvas{
+    background: white;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    cursor: crosshair;
+}
+
+.container-bottom{
+    display: flex;   
+    height: 20px; 
+}
+
+.bottom{
+    align-items: baseline;
+    background: white;
+    width: 100%;
+    height: 50px;
+    z-index: 12345;
+}
